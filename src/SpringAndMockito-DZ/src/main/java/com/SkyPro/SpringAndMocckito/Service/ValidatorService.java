@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 public class ValidatorService {
 
 
+
     public String validateName(String name) {
         if (StringUtils.isAlpha(name)) {
             return StringUtils.capitalize(name.toLowerCase());
